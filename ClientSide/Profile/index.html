@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="Adam Alrasi"/>
     <title>Profile - Adam Alrasi</title>
+    <link rel="stylesheet" href="profile_style.css">
 </head>
 <body>
-    <header>
-        <h1>Adam Alrasi</h1>
-        <div>
-            <img src="./images/profile-image.jfif" alt="profile-image" width="250">
-        </div>
-    </header>
-    <nav>
-        <h2>External Links</h2>
-        <ul>
-            <li><a href="https://github.com/adamalrasi">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/adamalrasi/">Linkedin</a></li>
-        </ul>
+    <section class="container">
+        <header class="header">
+            <div>
+                <h1 class="header-text">Adam Alrasi</h1>
+                <p class="text-style font-size-mid">Automation Engineer, Always looking to Provide a Excellent Service✨</p>
+                <p class="text-style">Birmingham, UK</p>
+                <h2>External Links</h2>
+            <ul class="display-flex">
+                <li><a href="https://github.com/adamalrasi">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/adamalrasi/">Linkedin</a></li>
+            </ul>
+            </div>
+                <div>
+                <img id="profile-img" src="./images/profile-image.jfif" alt="profile-image" width="250">
+            </div>
+        </header>
+        <nav>
         <h2>Internal Links</h2>
         <ul><a href="#overview">Overview</a></ul>
         <ul><a href="#work-experience">Work Experience</a></ul>
@@ -28,11 +34,11 @@
     <main>
         <section>
             <h2 id="overview">Overview</h2>
-            <p>Passionate Automation Engineer based in Birmingham, UK. I have experience in front-end and back-end development. My ultimate goal is to keep improving my skills and maintain a growth mindset. I'm currently learning the skillset needed to be a Automation Engineer at Sparta Global.</p>
+            <p class="text-style overview-info">Passionate Automation Engineer based in Birmingham, UK. I have experience in front-end and back-end development. My ultimate goal is to keep improving my skills and maintain a growth mindset. I'm currently learning the skillset needed to be a Automation Engineer at Sparta Global.</p>
         </section>
         <section>
             <h2 id="work-experience">Work Experience</h2>
-            <table>
+            <table class="text-style">
                 <caption>Employment History</caption>
                 <tHead>
                     <tr>
@@ -66,7 +72,7 @@
         </section>
         <section>
             <h2 id="education">Education</h2>
-            <table>
+            <table class="text-style">
                 <caption>Educational History</caption>
                 <tHead>
                     <tr>
@@ -86,10 +92,9 @@
                 </tbody>
             </table>
         </section>
-        </section>
         <section>
             <h2 id="skills">Skills</h2>
-        <ul>
+            <ul class="text-style">
             <li>Java</li>
             <li>Agile/Scrum</li>
             <li>HTML/CSS</li>
@@ -98,18 +103,20 @@
             <li>Problem solving</li>
             <li>React</li>
         </ul>
-        </section>
-        <section id="news-search">
-            <h2>News Search</h2>
-            <form method="get" action="http://www.bbc.co.uk/search">
-                <label for="search-term">Search Term:</label>
-                <input type="text" id="search-term" name="q" value="Birmingham..." />
-                <button type="submit">Search</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <small>Copyright &#169; Sparta Global 2023 <cite>by Adam Alrasi</cite></small>
-    </footer>
+    </section>
+    <section id="news-search">
+        <h2>News Search</h2>
+        <form method="get" action="http://www.bbc.co.uk/search">
+            <label for="search-term">Search Term:</label>
+            <input type="text" id="search-term" name="q" value="Birmingham..." />
+            <button type="submit">Search</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <small>Copyright &#169; Sparta Global 2023 <cite>by Adam Alrasi</cite></small>
+</footer>
+</section>
+</section>
 </body>
 </html>
