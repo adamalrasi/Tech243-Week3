@@ -40,10 +40,17 @@ body {
     width: 150px;
     margin: 0 2rem 0 5rem;
     border-radius: 10%;
-    box-shadow: 4px 3px 5px;
+    box-shadow: 2px 3px 3px;
 }
 
 .overview-info{
     width: 90%
+}
+.skills-info li{
+    background-color: rgb(121, 121, 121);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
 }
 
