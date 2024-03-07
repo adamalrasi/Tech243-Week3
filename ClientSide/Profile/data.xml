@@ -29,11 +29,11 @@
         </placement>
     </education>
     <skills>
-    <skill no="1">Java</skill>
-    <skill no="2">Agile/Scrum</skill>
-    <skill no="3">HTML/CSS</skill>
-    <skill no="4">JavaScript</skill>
-    <skill no="5">Problem Solving</skill>
-    <skill no="6">React</skill>
+        <skill no="1">Java</skill>
+        <skill no="2">Agile/Scrum</skill>
+        <skill no="3">HTML/CSS</skill>
+        <skill no="4">JavaScript</skill>
+        <skill no="5">Problem Solving</skill>
+        <skill no="6">React</skill>
     </skills>
 </adam_alrasi>
