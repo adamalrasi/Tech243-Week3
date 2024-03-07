@@ -6,7 +6,7 @@ body {
 }
 .container {
     margin: auto;
-    width: 63%;
+    width: 55%;
 }
 .display-flex{
     display: flex;
@@ -49,8 +49,16 @@ body {
 .skills-info li{
     background-color: rgb(121, 121, 121);
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: 5px;
     font-weight: 700;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 50%;
+    font-size: medium;
+    margin-top: 35px;
+    margin-bottom: 25px;
 }
 

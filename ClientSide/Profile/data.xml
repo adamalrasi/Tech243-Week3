@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adam_alrasi>
+    <work_experience>
+        <job no="1">
+            <position>Automation Engineer</position>
+            <company>Sparta Global</company>
+            <start>Feb 2024</start>
+            <to>Present</to>
+        </job>
+        <job no="2">
+            <position>Automation Engineer</position>
+            <company>Sparta Global</company>
+            <start>Aug 2023</start>
+            <to>Feb 2024</to>
+        </job>
+        <job no="3">
+            <position>IT Support</position>
+            <company>Teleperformance</company>
+            <start>Mar 2020</start>
+            <to>Aug 2023</to>
+        </job>
+    </work_experience>
+    <education>
+        <placement no="1">
+            <course>Computer Science</course>
+            <university>Arden University</university>
+            <start>Sep 2019</start>
+            <to>Mar 2020</to>
+        </placement>
+    </education>
+    <skills>
+    <skill no="1">Java</skill>
+    <skill no="2">Agile/Scrum</skill>
+    <skill no="3">HTML/CSS</skill>
+    <skill no="4">JavaScript</skill>
+    <skill no="5">Problem Solving</skill>
+    <skill no="6">React</skill>
+    </skills>
+</adam_alrasi>

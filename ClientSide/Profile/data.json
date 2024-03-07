@@ -1,0 +1,39 @@
+{
+    "adam_alrasi": {
+
+    "work_experience": [{
+        "position": "Automation Engineer",
+        "company": "Sparta Global",
+        "start": "Feb 2024",
+        "to": "Present"
+    },
+    {
+        "position": "Software Bootcamper",
+        "company": "School of Code",
+        "start": "Aug 2023",
+        "to": "Jan 2024"
+    },
+    {
+        "position": "IT Support",
+        "company": "Teleperformance",
+        "start": "Mar 2020",
+        "to": "Aug 2023"
+    }],
+
+    "education": [{
+        "Course": "Computer Science",
+        "University": "Arden University",
+        "start": "Sep 2019",
+        "to": "Mar 2020"
+    }],
+
+    "skills": [
+        "Java",
+        "Agile/Scrum",
+        "HTML/CSS",
+        "JavaScript",
+        "Problem Solving",
+        "React"
+    ]
+}
+}
